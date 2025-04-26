@@ -1,0 +1,31 @@
+<!-- create.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+    <h1>Create a New Quiz</h1>
+    <form id="quizForm">
+        <input type="text" id="question" placeholder="Enter Question" required><br><br>
+        <input type="text" class="option" placeholder="Option 1" required><br><br>
+        <input type="text" class="option" placeholder="Option 2" required><br><br>
+        <input type="text" class="option" placeholder="Option 3" required><br><br>
+        <input type="text" class="option" placeholder="Option 4" required><br><br>
+        <br>
+        <label>Select Correct Answer:</label><br>
+        <select id="correct">
+            <option value="0">Option 1</option>
+            <option value="1">Option 2</option>
+            <option value="2">Option 3</option>
+            <option value="3">Option 4</option>
+        </select><br><br>
+        <button type="submit">Add Question</button>
+    </form>
+    <a href="quiz.html">Play Quiz</a>
+</div>
+<script src="create.js"></script>
+</body>
+</html>
