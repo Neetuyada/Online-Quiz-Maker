@@ -1,2 +1,1 @@
-# Online-Quiz-Maker
-I created an Online Quiz Maker using HTML, CSS, and JavaScript, where users can log in, create quizzes, attempt them, and view the leaderboard. It features a clean, responsive design, smooth transitions, and localStorage for managing data.
+I developed an Online Quiz Maker using HTML, CSS, and JavaScript. The application allows users to log in with a username, create their own quizzes, attempt quizzes, and view a leaderboard, all managed through the browser's localStorage. The design is clean and interactive, with smooth transitions, responsive layouts, and a logout feature for a better user experience.
